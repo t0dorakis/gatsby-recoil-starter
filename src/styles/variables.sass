@@ -1,0 +1,38 @@
+// COLORS
+  
+$black-coral: #4C5C68
+$black: $black-coral
+$off-white: #FCFCFC
+$red: #B15E6C
+
+
+// SIZES
+
+$mobile-screen: 500px
+$desktop-screen: 1024px
+$general-padding: 1rem
+$max-width: 960px
+
+// FONTS
+
+@mixin normal-font
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-weight: 400
+  color: $black
+
+@mixin italic-font
+  @include normal-font
+  font-style: italic
+
+@mixin thin-font
+  @include normal-font
+  font-weight: 300
+
+// SHADOWS
+
+@mixin slight-shadow
+  box-shadow: 0px 1.63037px 3.62304px rgba(0, 0, 0, 0.0139364), 0px 4.50776px 10.0172px rgba(0, 0, 0, 0.02), 0px 10.8529px 24.1177px rgba(0, 0, 0, 0.0260636), 0px 36px 80px rgba(0, 0, 0, 0.04);
+  
+@mixin strong-shadow
+  box-shadow: 0px 1.30061px 2.21381px rgba(0, 0, 0, 0.0196802), 0px 3.12555px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 5.88513px 10.0172px rgba(0, 0, 0, 0.035), 0px 10.4981px 17.869px rgba(0, 0, 0, 0.0417275), 0px 19.6355px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 47px 80px rgba(0, 0, 0, 0.07)
+  

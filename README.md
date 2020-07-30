@@ -8,9 +8,16 @@
   Gatsby's hello-world starter
 </h1>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Kick off your project with this recoil boilerplate. 
+Yes, the recoil state management library is still in beta, but man it's fun!
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+We added following addons to the basic starter:
+- Recoil for clean hook based state management
+- SASS as our favorite CSS pre-compiler
+- react-helmet for easier SEO
+- Normalize.css for less basic restyling
+- react-svg to import svg as components
+
 
 ## 🚀 Quick start
 
@@ -20,19 +27,19 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```shell
     # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
+    gatsby new my-awesome-starter https://github.com/t0dorakis/gatsby-recoil-starter
     ```
 
-1.  **Start developing.**
+2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-hello-world-starter/
+    cd my-awesome-starter/
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 

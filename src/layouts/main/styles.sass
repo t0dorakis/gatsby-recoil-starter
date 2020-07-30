@@ -1,0 +1,23 @@
+@import "../../styles/variables.sass"
+
+.layout, main
+  min-height: 100%
+  width: 100%
+  margin: 0 auto
+  main
+    display: flex
+    min-height: 100vh
+    max-width: $max-width
+    flex-direction: column
+    justify-items: flex-start
+    align-items: flex-start
+    padding: calc(#{$general-padding} * 3)
+    @media screen and (max-width: $mobile-screen)
+      padding-top: $general-padding
+      padding-left: $general-padding
+      padding-right: $general-padding
+
+  footer
+    @include normal-font
+    background-color: $off-white
+    padding: $general-padding

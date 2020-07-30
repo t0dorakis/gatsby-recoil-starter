@@ -1,0 +1,27 @@
+@import "../styles/variables.sass"
+@import "../styles/normalize.css"
+
+*
+  box-sizing: border-box
+
+html, body, #___gatsby, #gatsby-focus-wrapper
+  height: 100%
+  width: 100%
+  margin: 0 auto
+  @include normal-font
+  
+a
+  text-decoration: none
+  color: $black
+
+.primary-btn
+  display: flex
+  width: fit-content
+  padding: calc(#{$general-padding} / 2) $general-padding
+  margin-left: -3px
+  @include normal-font
+  background-color: $red
+  color: $off-white
+  border: none
+  border-radius: 10px
+  cursor: pointer
