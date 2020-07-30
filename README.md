@@ -1,17 +1,13 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby's hello-world starter
+  Recoil Starter for Gatsby
 </h1>
 
-Kick off your project with this recoil boilerplate. 
-Yes, the recoil state management library is still in beta, but man it's fun!
+Kick off your project with this opinionated recoil boilerplate for gatsby.
 
-We added following addons to the basic starter:
+Yes, the recoil state management library is still in beta,
+but hey — it works like a charm!
+
+Following addons were added to the hello-world starter:
 - Recoil for clean hook based state management
 - SASS as our favorite CSS pre-compiler
 - react-helmet for easier SEO
